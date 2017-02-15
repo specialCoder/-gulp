@@ -31,7 +31,7 @@ Node是一个基于Chrome JavaScript V8引擎建立的一个解释器
 	  npm -v
  ```
 这同样能得到npm的版本号，装 Node 时已经自动安装了npm
-3、开始安装Gulp
+ 3、开始安装Gulp
   ```
     npm install -g gulp
   ```
@@ -41,7 +41,7 @@ Node是一个基于Chrome JavaScript V8引擎建立的一个解释器
  ```
 得到gulp的版本号，确认安装成功
 基础安装结束
-4、切换到你的在项目根文件夹下，运行
+ 4、切换到你的在项目根文件夹下，运行
  ```
   npm install gulp --save-dev //将具体的gulp功能插件局部安装项目下
  ```
@@ -136,8 +136,9 @@ gulp功能模块的文件会放在项目所在的目录的./node_modules 下
 gulp default
 ```
 当然，我们可以运行在gulpfile.js中定义的任意任务，比如，现在单独运行sass任务：
+```
 gulp sass
-
+```
 8、编译会显示Finished,如果你的JS有什么不好的地方它会提醒，避免一些不必要的错误，十分贴心
     常见提醒：
     
